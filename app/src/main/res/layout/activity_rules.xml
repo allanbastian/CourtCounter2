@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:scrollbars="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.courtcounter.RulesActivity">
+
+    <TextView
+        android:id="@+id/rule"
+        android:text="When a team makes a basket, they score two points and the ball goes to the other team.\n If a basket, or field goal, is made outside of the three-point arc, then that basket is worth three points. \nA free throw is worth one point. \nFree throws are awarded to a team according to some formats involving the number of fouls committed in a half and/or the type of foul committed. \nFouling a shooter always results in two or three free throws being awarded the shooter, depending upon where he was when he shot. \nIf he was beyond the three-point line, then he gets three shots. \nOther types of fouls do not result in free throws being awarded until a certain number have accumulated during a half. \nOnce that number is reached, then the player who was fouled is awarded a '1-and-1' opportunity. \nIf he makes his first free throw, he gets to attempt a second. \nIf he misses the first shot, the ball is live on the rebound.\nEach game is divided into sections. \nAll levels have two halves. \nIn college, each half is twenty minutes long. \nIn high school and below, the halves are divided into eight (and sometimes, six) minute quarters. \nIn the pros, quarters are twelve minutes long. \nThere is a gap of several minutes between halves. \nGaps between quarters are relatively short. \nIf the score is tied at the end of regulation, then overtime periods of various lengths are played until a winner emerges."
+        android:textSize="17sp"
+        android:scrollbars="vertical"
+        android:textColor="#000000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>
